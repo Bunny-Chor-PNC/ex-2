@@ -1,5 +1,5 @@
 div {
-    /*add border of 1px, solid and black*/
+    border:  1px solid black;
 
     /*margin of 10px*/
 
@@ -9,8 +9,8 @@ div {
 
 #header {
     background-color: gray;
-
-    /*height of 140px*/
+    height: 140px;
+    text-align: center;
 
 }
 
@@ -22,37 +22,42 @@ div {
 
     /*position from left : 20px*/
 
-    /*width = 100px*/
+    width: 100px;
 
-    /*height = 100px*/
+    height: 100px;
+    top: 20px;
+    left: 20px;
 
 }
 
-/**/
 #nav {
     background-color: pink;
-    position: absolute;
+    /* position: absolute; */
 
     /*position from top : 80px*/
 
     /*position from right : 50px*/
 
-    /*width = 50%*/
+    width: 50%;
 
     /*padding of 10px*/
+    
+    top: 80px;
+    right: 50px;
+    padding: 10px;
+    position: absolute;
 }
 
-/**/
 #main {
     background-color: slategrey;
 
-    /*width = 75%*/
+    width: 75%;
 
-    /*height = 400px*/
+    height: 400px;
+    text-align: center;
 
 }
 
-/**/
 #sidebar {
     background-color: greenyellow;
     position: absolute;
@@ -64,13 +69,16 @@ div {
     /*width = 20%*/
 
     /*height = 400px*/
+    right: 10px;
+    top: 152px;
+    width: 20%;
+    height: 400px;
+    text-align: center;
 
 }
 
-/**/
 #footer {
     background-color: beige;
-
-    /*height = 100px*/
-
+    text-align: center;
+    height: 100px;
 }
